@@ -207,7 +207,7 @@ mkdir /mnt/etc
 e generiamo il file `fstab` per la nostra tabella partizioni
 
 ```bash
-genfstab -U -p mnt >> /mnt/etc/fstab
+genfstab -U -p /mnt >> /mnt/etc/fstab
 ```
 
 Il file `fstab` serve ad un sistema UNIX-like per conoscere le partizioni presente sul disco, e per operare su di esse. Controlliamo che abbia generato una lista corretta lanciando
