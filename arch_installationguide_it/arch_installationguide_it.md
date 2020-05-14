@@ -136,10 +136,10 @@ Command (m for help): n
 Command (m for help): <premi_invio>
 Command (m for help): <premi_invio>
 Command (m for help): <premi_invio>
+Command (m for help): <premi_invio>
 
 # Per rendere la partizione "chiamabile" in fase di boot (boot flag)
 Command (m for help): a
-Command (m for help): 1
 ```
 
 Rispetto al partizionamento effettuato per lo schema GPT, nel caso di BIOS/MBR non abbiamo bisogno di una partizione EFI per conservare importanti informazioni per il boot, basterà la semplice partizione di sistema. Tuttavia dobbiamo abilitare codesta partizione al boot, tramite l'imposizione del flag di boot (il secondo comando in lista).  
