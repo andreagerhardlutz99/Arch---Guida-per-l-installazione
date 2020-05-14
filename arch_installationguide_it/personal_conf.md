@@ -14,7 +14,7 @@ sudo systemctl enable avahi-daemon.service && systemctl start avahi-daemon.servi
 sudo nano /etc/nsswitch.conf
 	mdns_minimal [NOTFOUND=return] resolve [...]
 
-yay -S arc-gtk-theme-jnsh-git papirus-icon-theme # Dopodiché configura il sistema cone le icone e i temi corretti, per Gnome-Shell prima cambia la dimensione dei font a 10 e esegui lo script per GDM3
+yay -S arc-gtk-theme-jnsh-git papirus-icon-theme volantes-cursors # Dopodiché configura il sistema cone le icone e i temi corretti, per Gnome-Shell prima cambia la dimensione dei font a 10 e esegui lo script per GDM3
 ```
 
 ##### Configurazione per XFCE4
@@ -32,7 +32,7 @@ sudo systemctl enable avahi-daemon.service && systemctl start avahi-daemon.servi
 sudo nano /etc/nsswitch.conf
 	mdns_minimal [NOTFOUND=return] resolve [...]
 
-yay -S arc-gtk-theme-jnsh-git papirus-icon-theme # Dopodiché configura il sistema cone le icone e i temi corretti
+yay -S arc-gtk-theme-jnsh-git papirus-icon-theme volantes-cursors # Dopodiché configura il sistema cone le icone e i temi corretti
 
 sudo pacman -S geany xarchiver xpdf galculator audacious zip unzip gparted
 yay -S mugshot
