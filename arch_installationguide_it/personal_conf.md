@@ -44,3 +44,5 @@ yay -S mugshot
 sudo pacman -S libreoffice-fresh libreoffice-fresh-it vlc
 yay -S google-chrome spotify
 ```
+
+Consiglio l'utilizzo del wallpaper [default.png](default.png)
