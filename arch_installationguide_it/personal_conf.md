@@ -20,7 +20,7 @@ yay -S arc-gtk-theme-jnsh-git papirus-icon-theme volantes-cursors # Dopodiché c
 ##### Configurazione per XFCE4
 
 ```bash
-sudo pacman -S xfce4 xfce4-goodies udisks2 udevil exfat gvfs lightdm lightdm-gtk-greeter
+sudo pacman -S xfce4 xfce4-goodies udisks2 udevil exfat gvfs lightdm lightdm-gtk-greeter network-manager-applet
 sudo systemctl enable lightdm.service
 
 sudo localectl set-locale LANG=it_IT.UTF-8
