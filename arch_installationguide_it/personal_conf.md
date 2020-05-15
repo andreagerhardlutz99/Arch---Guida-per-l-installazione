@@ -9,10 +9,10 @@ sudo localectl set-locale LANG=it_IT.UTF-8
 sudo pacman -S noto-fonts noto-fonts-emoji ttf-croscore ttf-roboto
 
 sudo pacman -S cups system-config-printer nss-mdns
-sudo systemctl enable org.cups.cupsd.service && systemctl start org.cups.cupsd.service
-sudo systemctl enable avahi-daemon.service && systemctl start avahi-daemon.service
+sudo systemctl enable avahi-daemon.service && sudo systemctl start avahi-daemon.service
 sudo nano /etc/nsswitch.conf
 	mdns_minimal [NOTFOUND=return] resolve [...]
+sudo systemctl enable org.cups.cupsd.service && systemctl start org.cups.cupsd.service
 
 yay -S arc-gtk-theme-jnsh-git papirus-icon-theme volantes-cursors # Dopodiché configura il sistema cone le icone e i temi corretti, per Gnome-Shell prima cambia la dimensione dei font a 10 e esegui lo script per GDM3
 ```
@@ -27,14 +27,14 @@ sudo localectl set-locale LANG=it_IT.UTF-8
 sudo pacman -S noto-fonts noto-fonts-emoji ttf-croscore ttf-roboto cantarell-fonts
 
 sudo pacman -S cups system-config-printer nss-mdns
-sudo systemctl enable org.cups.cupsd.service && systemctl start org.cups.cupsd.service
-sudo systemctl enable avahi-daemon.service && systemctl start avahi-daemon.service
+sudo systemctl enable avahi-daemon.service && sudo systemctl start avahi-daemon.service
 sudo nano /etc/nsswitch.conf
 	mdns_minimal [NOTFOUND=return] resolve [...]
+sudo systemctl enable org.cups.cupsd.service && systemctl start org.cups.cupsd.service
 
 yay -S arc-gtk-theme-jnsh-git papirus-icon-theme volantes-cursors # Dopodiché configura il sistema cone le icone e i temi corretti
 
-sudo pacman -S geany xarchiver xpdf galculator audacious zip unzip gparted
+sudo pacman -S geany atril engrampa mate-calculator audacious gparted
 yay -S mugshot
 ```
 
